@@ -8,7 +8,7 @@ def create_dataframe():
     data = {
         "id": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
         "review": [
-            "Great food and ambiance. v2",
+            "Great food and ambiance. v2 Hey it's second version",
             "Terrible service.",
             "Amazing experience!",
             "Food was cold.",
@@ -69,7 +69,7 @@ if __name__ == "__main__":
     save_dataframe(df)
 
     # Step 3
-    k = 5  # Replace with your desired value of K
+    k = 6  # Replace with your desired value of K
     processed_df = process_data(k)
 
     # Display shapes
