@@ -2,3 +2,4 @@
     remote = myremote
 ['remote "myremote"']
     url = ../S3
+dvc
